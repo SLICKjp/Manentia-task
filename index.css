@@ -1,0 +1,231 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.navbar
+{
+  background-color:rgb(15,10,5);
+  border: none;
+  font-family: 'Cantora One', sans-serif;
+}
+.navbar-brand
+{
+  font-size:30px;
+  margin-left: 20px;
+}
+.nav-item
+{
+  font-size:20px;
+  margin: 0 20px;
+}
+/*SECTION 1 */
+.content1
+{
+  background-image: url('./assets/office.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align:center;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.text-content
+{
+  color:white;
+  font-family: 'Cantora One', sans-serif;
+  
+}
+.text-content h1
+{
+  font-size:48px;
+ 
+}
+.text-content p
+{
+  width: 800px;
+  margin-top:20px;
+  font-size:25px;
+  line-height:2.2;  
+  
+}
+
+/* SECTION 2 */
+.content2
+{
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height:40vh;
+  height: auto;
+}
+.icon
+{
+  font-size:60px;
+  color: #8f8f8f;
+}
+a :hover
+{
+  color:black;
+}
+.feature1 h3
+{
+  font-size:30px;
+  font-weight: bold;
+  font-family: 'Cantora One', sans-serif;
+}
+.feature1 p 
+{
+  font-family: 'Cantora One', sans-serif;
+  font-weight:bold;
+  color: #8f8f8f;
+}
+
+
+/*SECTION 3 */
+
+.content3
+{
+  height:50vh;
+  color:white;
+  background-color:black;
+  text-align:center;
+  padding-top:50px;
+  font-family: 'Cantora One', sans-serif;
+}
+.company-content
+{
+  margin-top:40px;
+}
+.company-content p
+{
+
+  width:80%;
+  margin-left: 150px;
+  margin-top:20px;
+ 
+  text-align: center;
+}
+
+
+/*SECTION 4 */
+.content4
+{
+  height:auto;
+  min-height:40vh;
+  font-family: 'Cantora One', sans-serif;
+}
+.form-container 
+{
+  /* width:70%; */
+  width:80%;
+  margin-left:150px;
+}
+.job-content
+{
+  /* margin-left: 230px; */
+  margin: 0px 150px;
+  padding-top: 40px;
+ 
+}
+.job-content h3
+{
+  font-weight: bold;
+  text-align: center;
+}
+.job-content p
+{
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+.text-center{
+  margin-top:40px;
+  margin-bottom:30px;
+}
+input
+{
+  background-color:rgb(214, 205, 205) !important;
+}
+select
+{
+  background-color:rgb(214, 205, 205) !important;
+}
+#customFile
+{
+  background-color:rgb(214, 205, 205) !important;
+}
+
+
+/*FOOTER */
+#footer
+{
+   text-align:center;
+   font-family: 'Reem Kufi', sans-serif;
+   height:150px;
+   bottom: 0;
+   color:white;
+   background-color:black;
+}
+.contact-icons
+{
+    margin:30px 10px;
+}
+.footer-para
+{
+    font-size:20px;
+}
+
+/*MEDIA QUERIES */
+@media all and (max-width:786px)
+{
+  
+  .content1 .text-content h1
+  {
+    width:100%;
+  }
+  .content1 .text-content p
+  {
+    width:100%;
+  }
+  .content2
+  {
+    flex-direction:column;
+    margin-top:20px;
+    
+  }
+  .content3
+  {
+    height:auto;
+    min-height:70vh;
+    padding:20px;
+  }
+  .company-content p
+  {
+    width:100%;
+    margin-left:0;
+  }
+  .job-content 
+  {
+    width:80%;
+    margin:auto;
+
+  }
+  .form-container
+  {
+    width:100%;
+    margin-left:0px;
+    padding:10px;
+  }
+  .form-container form
+  {
+    margin: auto;
+  }
+}
